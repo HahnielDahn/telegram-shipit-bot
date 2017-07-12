@@ -1,23 +1,24 @@
-# telegram-shipit-bot
-Simple telegram bot with basic Message and picture sending capabilities.
-The bot also sends daily at 6:00 am the weather forecast for the provided location (see var daily-loc) at the provided chat id (see var ChatId).
+# Telegram Ship-it Bot
+Simple telegram bot with basic Message and picture sending capabilities.\
+The bot also sends daily at 5:30 am the weather forecast for the provided location (see config.json).
 
 # Users
-Simply write /shipit or /doit to @shipitbot and enjoy your pictures.
+Use these commands to get a response from the bot.
+* /burn - burn the witch!
+* /choose [option1], [option2] - chooses one of the options
 * /decide \<question> - answers a yes/no question
 * /doit - sends a random picture related to the phrase "do it"
-+ /draw - gets a random card from the early years of magic the gathering, cudos an magiccards.info
+* /draw - gets a random card from the early years of magic the gathering, cudos an magiccards.info
 * /greet [name] - greets the given name "Hello, [name]" 
 * /lorem - sends a random picture from lorempixel.com
-* /marius - burn the witch!
 * /merge - sends a random merge meme picture
-+ /papier - spielt schere/stein/papier mit dem Bot
-+ /schere - spielt schere/stein/papier mit dem Bot
+* /paper - plays rock/paper/scissors with the bot
+* /rock - plays rock/paper/scissors with the bot
+* /scissors - plays rock/paper/scissors with the bot
 * /shipit - sends a random picture related to the phrase "ship it"
 * /slap [name] - slaps [name] around a bit with a large trout
-+ /stein - spielt schere/stein/papier mit dem Bot
 * /weather [location] - sends a picture with the current weather forecast of the provided location (from wttr.in)
-+ /wer [text] - '/wer hat an der Uhr gedreht' => '[RandomNameAusArray] hat an der Uhr gedreht'
+* /who [text] - returns a random name from registered users and the provided text e.g. 'CptPie [text]'
 
 # For Server-Maintainer
 There is a shell script called "automated_deploy.sh".\
