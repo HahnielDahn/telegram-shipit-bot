@@ -1,5 +1,5 @@
 {
-	"bottoken": "XXXXXXX",
-	"dailyChatId": "XXXXXXXX",
-	"dailyLocation": "XXXXXXX"
+	"bottoken": "YOUR TOKEN",
+	"dailyChatId": "YOUR DESIRED CHATID",
+	"dailyLocation": "YOUR DESIRED LOCATION"
 }
